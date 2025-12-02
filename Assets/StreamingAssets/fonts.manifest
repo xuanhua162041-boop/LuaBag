@@ -1,0 +1,28 @@
+ManifestFileVersion: 0
+CRC: 2317423378
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: c9c4a1a79aa22fec57c19ff9c5548568
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: acc87f5f41cb638dcdccc8ca554b5154
+  IncrementalBuildHash:
+    serializedVersion: 2
+    Hash: c9c4a1a79aa22fec57c19ff9c5548568
+HashAppended: 0
+ClassTypes:
+- Class: 21
+  Script: {instanceID: 0}
+- Class: 28
+  Script: {instanceID: 0}
+- Class: 48
+  Script: {instanceID: 0}
+- Class: 128
+  Script: {instanceID: 0}
+SerializeReferenceClassIdentifiers: []
+Assets:
+- "Assets/ArtRes/\u7AD9\u9177\u4ED3\u8033\u6E14\u9633\u4F53-W05.ttf"
+- "Assets/ArtRes/\u7AD9\u9177\u4ED3\u8033\u6E14\u9633\u4F53-W03.ttf"
+- "Assets/ArtRes/\u7AD9\u9177\u6587\u827A\u4F53.ttf"
+Dependencies: []

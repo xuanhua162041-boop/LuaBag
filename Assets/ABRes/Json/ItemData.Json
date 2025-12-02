@@ -1,0 +1,9 @@
+[
+{"id":1,"name":"试作型符合弓","icon":"Icon_2","type":1,"tips":"威力无比的弓箭"},
+{"id":2,"name":"断光之努亚达","icon":"Icon_1","type":1,"tips":"[诸神座]防具,缠绕黑色不详气息"},
+{"id":3,"name":"蓝色药丸","icon":"Icon_3","type":2,"tips":"使用后恢复血量"},
+{"id":4,"name":"红色药丸","icon":"Icon_4","type":2,"tips":"使用后恢复魔力"},
+{"id":5,"name":"绯色魔石","icon":"Icon_5","type":3,"tips":"用于合成高级道具"},
+{"id":6,"name":"以太结晶","icon":"Icon_6","type":3,"tips":"用于合成高级道具"}
+
+]

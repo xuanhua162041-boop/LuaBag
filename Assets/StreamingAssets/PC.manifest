@@ -1,0 +1,14 @@
+ManifestFileVersion: 0
+CRC: 480321175
+AssetBundleManifest:
+  AssetBundleInfos:
+    Info_0:
+      Name: json
+      Dependencies: {}
+    Info_1:
+      Name: ui
+      Dependencies:
+        Dependency_0: fonts
+    Info_2:
+      Name: fonts
+      Dependencies: {}
