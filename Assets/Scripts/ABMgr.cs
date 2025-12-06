@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.Collections;
 using System.Collections.Generic;
 using System.Xml.Linq;
@@ -105,7 +105,7 @@ public class ABMgr : SingletonAutoMono<ABMgr>
 
     }
 
-    //同步加载 指定类型 typeof
+    //同步加载 指定类型 typeof   
     public Object LoadRes(string abName,string resName,Type type)
     {
         LoadAB(abName);

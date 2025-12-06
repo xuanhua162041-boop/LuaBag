@@ -1,7 +1,6 @@
-PlayerData = {}
---我们目前 制作背包 所以只需要他的道具信息即可
+PlayerData = {}--用于存放玩家数据的全局表
 
-PlayerData.equips = {}
+PlayerData.equips = {}--定义了三个表变量
 PlayerData.items = {}
 PlayerData.gems = {}
 
@@ -18,5 +17,5 @@ function PlayerData:Init()
     table.insert(self.gems,{id = 6 , num = 64})
 end
 
+--PlayerData:Init()
 
-print(PlayerData.equips[1].id..PlayerData.equips[1].num)

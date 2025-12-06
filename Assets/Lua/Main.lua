@@ -10,4 +10,5 @@ require("ItemData")
 
 require("PlayerData")
 PlayerData:Init()
+print(PlayerData.equips[1].id..PlayerData.equips[1].num)
 
