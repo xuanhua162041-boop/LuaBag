@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.U2D;
 
 public class Main : MonoBehaviour
 {
@@ -15,6 +16,6 @@ public class Main : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        
+
     }
 }

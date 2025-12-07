@@ -1,15 +1,15 @@
 ManifestFileVersion: 0
-CRC: 1531916131
+CRC: 2677846626
 Hashes:
   AssetFileHash:
     serializedVersion: 2
-    Hash: c2f9df5709eadcfe374022005243626f
+    Hash: fcebc12598941469782d1e619c894e28
   TypeTreeHash:
     serializedVersion: 2
-    Hash: 3f5d447c4a2371e273731078bf3b92b2
+    Hash: ad4d268b81fa38cb98d17eaec452f918
   IncrementalBuildHash:
     serializedVersion: 2
-    Hash: c2f9df5709eadcfe374022005243626f
+    Hash: fcebc12598941469782d1e619c894e28
 HashAppended: 0
 ClassTypes:
 - Class: 1
@@ -23,6 +23,10 @@ ClassTypes:
 - Class: 114
   Script: {fileID: 11500000, guid: 4e29b1a8efbd4b44bb3f3716e73f07ff, type: 3}
 - Class: 114
+  Script: {fileID: 11500000, guid: 1aa08ab6e0800fa44ae55d278d1423e3, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 5f7201a12d95ffc409449d95f23cf332, type: 3}
+- Class: 114
   Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
 - Class: 114
   Script: {fileID: 11500000, guid: 2fafe2cfe61f6974895a912c3755e8f1, type: 3}
@@ -33,13 +37,9 @@ ClassTypes:
 - Class: 114
   Script: {fileID: 11500000, guid: 30649d3a9faa99c48a7b1166b86bf2a0, type: 3}
 - Class: 114
-  Script: {fileID: 11500000, guid: 5f7201a12d95ffc409449d95f23cf332, type: 3}
-- Class: 114
   Script: {fileID: 11500000, guid: 2a4db7a114972834c8e4117be1d82ba3, type: 3}
 - Class: 114
   Script: {fileID: 11500000, guid: e19747de3f5aca642ab2be37e372fb86, type: 3}
-- Class: 114
-  Script: {fileID: 11500000, guid: 1aa08ab6e0800fa44ae55d278d1423e3, type: 3}
 - Class: 115
   Script: {instanceID: 0}
 - Class: 128
@@ -79,7 +79,7 @@ SerializeReferenceClassIdentifiers:
   ClassName: UnityEngine.UI.Toggle/ToggleEvent
 Assets:
 - Assets/ABRes/PreFabs/UI/BagPanel.prefab
-- Assets/ABRes/PreFabs/UI/ItemPrefab.prefab
+- Assets/ABRes/PreFabs/UI/ItemGrid.prefab
 - Assets/ABRes/SpriteAtlas/Icon.spriteatlas
 - Assets/ABRes/PreFabs/UI/MainPanel.prefab
 Dependencies:
