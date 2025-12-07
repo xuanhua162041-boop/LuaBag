@@ -13,7 +13,7 @@ BagPanel.SvBag =nil
 BagPanel.Content=nil
 
 --用来存储当前显示的格子
-BagPanel.items = nil
+BagPanel.items = {}
 --"成员方法"
 --初始化方法
 function BagPanel:Init()
@@ -81,7 +81,11 @@ function BagPanel:ChangeType(type)
 
 
     --更新之前把老的格子删掉 BagPanel.items
-
+    for i = 1,#self.items do
+        --销毁格子对象
+        GameObject.Destroy(self.items[i].obj)
+        self.items = {}
+    end
 
     --再根据当前选择的类型  来创建新的格子 BagPanel.items
     --要根据传入的type123来选择 显示的数据

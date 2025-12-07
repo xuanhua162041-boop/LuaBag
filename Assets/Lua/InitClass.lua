@@ -22,6 +22,7 @@ Text = UI.Text
 Button = UI.Button
 Toggle = UI.Toggle
 ScrollRect = UI.ScrollRect
+SpriteAtlas = CS.UnityEngine.U2D.SpriteAtlas
 --CAnVAS对于我们这个项目说 找一次就行了. 因为不切换场景
 Canvas = GameObject.Find("Canvas").transform
 
