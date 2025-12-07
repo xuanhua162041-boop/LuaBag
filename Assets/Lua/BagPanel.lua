@@ -100,11 +100,11 @@ function BagPanel:ChangeType(type)
         --根据格子资源  加载格子  实例化·改变图片·文本·位置
         local grid = {}
         --用一张新表  代表 各自对象 里面的属性  存储对应的信息
-        grid.obj = ABMgr.LoadRes('ui','ItemGrid')
+        grid.obj = ABMgr:LoadRes('ui','ItemGrid')
         --设置父对象
         grid.obj.transform:SetParent(self.Content,false)
         --继续设置他的位置
-        grid.obj.transform.localPosition = Vector3((i-1)%4*175),math.floor((i-1)/4*175),0)
+        grid.obj.transform.localPosition = Vector3(((i-1)%4*175),math.floor((i-1)/4*175),0)
         --寻找控价
         grid.imgIcon = grid.obj.transform:Find("ImageIcon"):GetComponent(typeof(Image))
         grid.Text = grid.obj.transform:Find("Count"):GetComponent(typeof(Text))
@@ -114,7 +114,7 @@ function BagPanel:ChangeType(type)
         --根据名字  加载图集  再 加载图集中的图表信息 
         local strs = string.split(data.icon,"_")
         --加载图集
-        local spriteAtlas = ABMgr:LoadRes("ui",strs[i],typeof(SpriteAtlas))
+        local spriteAtlas = ABMgr:LoadRes("ui",strs[1],typeof(SpriteAtlas))--strs[1] 的值是 "Icon"
         --加载图标 
         grid.imgIcon.sprite = spriteAtlas:GetSprite(strs[2])--使用图集中的 getSprite 通过名字获取image
         --设置数量
